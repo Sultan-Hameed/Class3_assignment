@@ -1,7 +1,8 @@
 
+
 export default function Home() {
   return (
-    <>
+    
       <section className="flex flex-col items-center">
         <h1 className="font-semibold text-center text-lg mt-3">Welcome To Home Page</h1>
         <h2 className=" w-fit  font-semibold text-center text-lg mt-5 bg-orange-400 rounded-lg px-2 ">Our Products</h2>
@@ -18,6 +19,6 @@ export default function Home() {
         </div>
       </section>
 
-    </>
+  
   );
 }
